@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação JS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Validação Númerica</h1>
+        <h2>Insira o valor de B > A para validar</h2>
+    </header>
+
+    <main>
+        <form id="dados-entrada">
+            <p id="valor_negativo">
+                Valores negativos não são aceitos
+            </p>
+            <input type="number" min="0" placeholder="Valor A" id="nA" required>
+            <p id="error-message">
+                O valor A é maior que o valor B.
+            </p>
+            <p id="igual-message">
+                Valores iguais.
+                <br>Tente Novamente
+            </p>
+            <input type="number" min="0" placeholder="Valor B" id="nB" required>
+            <p id="sucess-message">
+                O valor B é maior que o valor A
+            </p>
+            <input type="submit" value="Validar" id="btn-verificar">
+            <input type="button" value="Avançar" id="btn-avancar">
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

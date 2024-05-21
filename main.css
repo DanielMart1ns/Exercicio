@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+input{
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid rgb(233, 233, 137);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+    outline-color: rgb(149, 177, 139);
+}
+
+input#nA{
+    margin-top: 10px;
+}
+
+input#nB{
+    margin-top: 10px;
+}
+
+#btn-verificar{
+    background-image: linear-gradient(to right, rgb(0, 100, 0),rgb(24, 207, 24));
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btn-verificar:hover{
+    background-image: linear-gradient(to right, rgb(3, 3, 103), rgb(16, 136, 176));
+}
+
+/*Estilição após validação*/
+#valor_negativo{
+    background-color: rgb(209, 130, 10);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    height: 68px;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+
+#error-message{
+    background-color: rgba(255, 0, 0, 0.684);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    height: 70px;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+
+#sucess-message{
+    background-color: rgba(55, 255, 0, 0.684);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    height: 70px;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+
+#igual-message{
+    background-color: rgb(209, 130, 10);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+
+#btn-avancar{
+    background-image: linear-gradient(to right, rgb(3, 3, 103), rgb(16, 136, 176));
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+
+#btn-avancar:hover{
+    background-image: linear-gradient(to right, red, orange);
+}
+
+
+input.error{
+    border-color: red;
+    color: red;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.725);
+}
+
+input.sucess{
+    border-color: green;
+    color: green;
+    box-shadow: 0px 0px 10px rgba(10, 164, 10, 0.782);
+}
+
+input.valores-iguais{
+    border-color: rgb(165, 151, 0);
+    color: rgb(139, 134, 7);
+    box-shadow: 0px 0px 10px rgba(239, 239, 0, 0.782);
+}
+
