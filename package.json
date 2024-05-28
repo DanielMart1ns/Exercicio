@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "cypress": "cypress"
+  },
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "mochawesome": "^7.1.3"
+  }
+}
