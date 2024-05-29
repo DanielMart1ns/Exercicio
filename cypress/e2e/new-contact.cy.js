@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("New contact", () => {
+describe("Tests to contacts list", () => {
   beforeEach(() => {
     cy.visit("https://agenda-contatos-react.vercel.app/");
   });
